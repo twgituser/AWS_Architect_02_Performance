@@ -1,0 +1,28 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,18373.28,220479.36,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),NAT Gateway,Network Address Translation (NAT) Gateway,0,125.01,1500.12,USD,,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),Application Load Balancers,Application Load Balancer,0,442.45,5309.4,USD,,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),Web Servers,Amazon EC2 ,0,5235.48,62825.76,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (m5.8xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (enabled), EBS Storage amount (2 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),Application Servers,Amazon EC2 ,0,5217.96,62615.52,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (c5.9xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (enabled), EBS Storage amount (2 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),RDS Postgres Master and Read Replica,Amazon RDS for PostgreSQL,0,7305.28,87663.36,USD,,"Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (2000), Storage amount (2 TB), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (10 TB)"
+Increased_Cost_Estimate,US East (N. Virginia),S3 Storage,S3 Standard,0,47.1,565.2,USD,,S3 Standard storage (2 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),S3 Storage,Data Transfer,0,0,0,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Not selected (0 TB per month)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Link,,,,,,,,,
+https://calculator.aws/#/estimate?id=f110fa55beff0c4836253e9f5245a5af68cd24e0,,,,,,,,,
+,,,,,,,,,
+Increased number of Web Servers and Application Servers and selected higher performance family types for both,,,,,,,,,
+Changed the Instance Type and Volume for the RDS Database to a more powerful offering ,,,,,,,,,
